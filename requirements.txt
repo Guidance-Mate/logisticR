@@ -1,5 +1,8 @@
 fastapi
-requests
 uvicorn
+requests
+joblib
+numpy
+pandas
 mangum
-
+scikit-learn
