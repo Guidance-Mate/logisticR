@@ -22,8 +22,8 @@ app.add_middleware(
 )
 
 # Load the trained model and MultiLabelBinarizer
-model = joblib.load("lr/mental_health_tool_recommendation_logreg_model.pkl")
-mlb = joblib.load("lr/mental_health_tool_recommendation_mlb.pkl")
+model = joblib.load("mental_health_tool_recommendation_logreg_model.pkl")
+mlb = joblib.load("mental_health_tool_recommendation_mlb.pkl")
 
 # URLs for assessment data
 PHQ9_URL = "https://docs.google.com/spreadsheets/d/1fQ8lRGPvNg3gcM0JkAMrdixGsj0CrK6T31K149D-jMI/export?format=csv"
